@@ -1,0 +1,318 @@
+.card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    min-height: 540px;
+    max-height: 601px;
+
+    background-image: linear-gradient(178deg,rgb(70, 70, 70),transparent);
+    font-family: sans-serif;
+  }
+  .meio{
+    display: grid;
+    place-items: center;
+  }
+  h2{
+    color:blue
+  }
+  .imagem{
+    border-radius: 20%;
+  }
+  .wrapper{
+    border-top: 30px ;
+    width: 100%;
+    margin-top: 5%;
+  }
+ 
+  .wrapper, .gg{
+    border:1px solid blue;
+    border-radius: 10cm;
+    background-color: white;
+  }
+  .dtext{
+    display: block;
+    border:none;
+    outline:none;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+  }
+ 
+  .wrapper label{
+    padding-left:20px;
+    font-size: 20px;
+    color:black;
+    pointer-events: none;
+  }
+
+.concluir{
+    text-align: center;
+}
+
+.lembsen{
+    display: inline;
+    font-size: 100%;
+    flex: 1;    
+    color:darkgrey;
+}
+
+.esqsen{
+    display: inline;
+    font-size: 100%;
+    margin-left: 7%;
+}
+
+.esqsen a{
+    color:rgb(29, 29, 29);
+}
+
+.bottao{
+    border-radius: 10cm;
+    background-color: blue;
+    color:white;
+    padding: 2px 50px ;
+    margin-top: 2%;
+    box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+    outline: none;
+    border:none;
+}
+
+#simbologg{
+    width: 5%;
+    height: 5%;
+    padding-right: 10%;
+}
+
+.gg a{
+    flex: 1;
+    text-decoration: none;
+    outline: none;
+    line-height: 3;
+    color: black;
+}
+
+/* pagina de pesquisa/cadastro */
+.bottao2{
+  border-radius: 10cm;
+  background-color: blue;
+  color:white;
+  font-size: 20px;
+  padding: 6px 58px ;
+  margin-top: 35%;
+  box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+  outline: none;
+  border:none;
+}
+.bottao3{
+  border-radius: 10cm;
+  background-color: green;
+  color:white;
+  font-size: 20px;
+  padding: 6px 30px ;
+  margin-top: 50% ;
+  margin-bottom: 45%;
+  box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+  outline: none;
+  border:none;
+}
+
+/*pesquisa */
+
+.dtext2{
+  display: inline;
+  border:none;
+  outline:none;
+  width: 70%;
+  padding-left: 5%;
+  margin: 5% 0% 2% 5%;
+  padding-bottom: 10px;
+}
+
+.wrapper2{
+  border:1px solid black;
+  border-radius: 10cm;
+  background-color: white;
+  width: 100%;
+  margin-bottom: 445.500px;
+}
+
+#imgpesq{
+  width: 50%;
+  height: 50%;
+}
+
+.butpesq{
+  display: inline;
+  border-radius: 10cm;
+  cursor: pointer;
+  width: 10%;
+  outline: revert;
+}
+
+/*achou*/
+
+.campos{
+  background-color: rgb(202, 202, 202);
+  border: solid rgb(202, 202, 202);
+  border-width: 10px ;
+  width:100%;
+  margin-top: 3%;
+}
+
+.achou-bot{
+  border:none;
+  outline:none;
+  background-color: rgb(202, 202, 202);
+  color:black;
+  margin-left: 1%;
+}
+
+.campos ::placeholder {
+  color:black;
+  opacity: 1;
+}
+.bottao5{
+  border-radius: 10cm;
+  background-color: blue;
+  color:white;
+  font-size: 20px;
+  padding: 6px 30px ;
+  margin-top: 10%;
+  box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+  outline: none;
+  border:none;
+}
+.bottao4{
+  border-radius: 10cm;
+  background-color: green;
+  color:white;
+  font-size: 20px;
+  padding: 6px 46px ;
+  margin-top: 42px;
+
+  box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+  outline: none;
+  border:none;
+}
+/*manutenção*/
+
+.campos2{
+  background-color: green;
+  border: solid green;
+  border-width: 10px 5px 10px 10px ;
+  width:90%;
+  margin-top: 3%;
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.campos2 ::placeholder {
+  color:black;
+  opacity: 1;
+}
+
+.achou-bot2{
+  border:none;
+  outline:none;
+  background-color: green;
+  color:black;
+  position: absolute;
+}
+
+.D2{
+  border:none;
+  outline:none;
+  background-color: green;
+  color:black;
+  position: absolute;
+  max-width: 10ex;
+}
+
+.campos3{
+  background-color: red;
+  border: solid red;
+  border-width: 10px 5px 10px 10px ;
+  width:90%;
+  margin-top: 3%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.campos3 ::placeholder {
+  color:black;
+  opacity: 1;
+}
+
+.achou-bot3{
+  border:none;
+  outline:none;
+  background-color: red;
+  color:black;
+  position: absolute;
+}
+
+.D3{
+  border:none;
+  outline:none;
+  background-color: red;
+  color:black;
+  position: absolute;
+  
+  max-width: 10ex;
+}
+
+.caixa1{
+  font-size: 90%;
+}
+
+/*esqueci 1*/
+
+.cardred{ 
+  border-radius: 50px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  top:5%;
+  display: grid;
+  place-items: center;
+  background-color: red;
+  font-family: sans-serif;
+  max-height: 600px;
+}
+
+  #esqueci{
+    display: grid;
+    place-items: center;
+  }
+  .esqsena{
+    border-radius: 170px;
+    width: 50%;
+    display: grid;
+    place-items: center;
+    background-color: rgb(202, 202, 202);
+    margin: 40px;
+    padding:40px;
+  }
+
+  .bottao4{
+    border-radius: 10cm;
+    background-color: green;
+    color:white;
+    font-size: 20px;
+    padding: 6px 30px ;
+    margin-top: 70% ;
+
+    margin-bottom: 45%;
+    box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.5);
+    outline: none;
+    border:none;
+  }
+  #esqu{
+    margin-bottom: -2%;
+    font-size: 30px;
+  }
